@@ -19,7 +19,7 @@ const AboutUs = () => {
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-pink">WHO WE ARE</p>
             <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-pink">
-              Crafting Unforgettable Experiences with Precision
+              Crafting Unforgettable Experiences With Precision
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-custorm-pink text-custorm-black">
               At Naka Event Management, we design and execute events that align with your vision, ensuring a seamless and unforgettable experience.

@@ -19,7 +19,7 @@ const Hero = () => {
           YOUR PARTNER IN FINANCIAL INCLUSION
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">
-          Building a Strong Financial Foundation for Your Growth
+          Building A Strong Financial Foundation For Your Growth
         </h1>
         <p className="pb-5 text-base text-center text-white md:text-left">
           Sekela Microfinance empowers Zimbabwe&apos;s entrepreneurs and small businesses with tailored financial solutions, fostering sustainable economic growth and financial inclusion.

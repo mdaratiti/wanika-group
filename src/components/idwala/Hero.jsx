@@ -19,7 +19,7 @@ const Hero = () => {
           YOUR TRUSTED FINANCE PARTNER
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">
-          Building wealth with strength and resilience.
+          Building Wealth With Strength And Resilience.
         </h1>
         <p className="pb-5 text-base text-center text-white md:text-left">
           At Idwala Asset Management, we provide tailored investment solutions and personalized wealth management with the strength and resilience of granite, helping you achieve your financial goals.

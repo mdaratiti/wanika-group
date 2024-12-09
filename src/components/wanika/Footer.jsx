@@ -70,7 +70,7 @@ const Footer = () => {
               Solutions
             </Link>
             <Link
-              href="/contact"
+              href="/contact-us"
               className="block pb-4 text-base text-white hover:text-custorm-green"
             >
               Contact
@@ -134,7 +134,7 @@ const Footer = () => {
             </p>
             <p className="pb-4 text-base text-white">+263 77 448 5320</p>
             <p className="pb-4 text-base text-white">www.wanikagroup.net</p>
-            <p className="pb-4 text-base text-white">elton.chitondo@outlook.com</p>
+            <p className="pb-4 text-base text-white">info@wanikagroup.net</p>
           </div>
         </div>
       </div>

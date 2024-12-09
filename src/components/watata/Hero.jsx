@@ -19,7 +19,7 @@ const Hero = () => {
           YOUR LEADING TRADE PARTNER
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">
-          Cultivating prosperity through vital resurces
+          Cultivating Prosperity Through Vital Resources
         </h1>
         <p className="pb-5 text-center text-white md:text-base md:text-left">
           Watata Commodities specializes in the procurement and distribution of crucial bulk commodities, including maize, wheat, soya, and minerals, with a commitment to quality and reliability.

@@ -31,7 +31,7 @@ const Commercials = () => {
         <div>
           <p className="pb-5 text-base font-bold text-custorm-pink">WHY CHOOSE US</p>
           <h2 className="pb-5 text-2xl font-bold md:text-3xl">
-            Elevating Events with Precision and Creativity
+            Elevating Events With Precision And Creativity
           </h2>
           <p className="pt-5 pb-5 text-base">
             Naka Events Management brings unparalleled expertise in event planning, logistics, production, and promotion. We tailor each event to shine brightly and leave a lasting impression.

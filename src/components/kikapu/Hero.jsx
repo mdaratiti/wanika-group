@@ -19,7 +19,7 @@ const Hero = () => {
           INNOVATIVE SECRETARIAL SOLUTIONS
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">
-          Expertise in Corporate Governance and Compliance
+          Expertise In Corporate Governance And Compliance
         </h1>
         <p className="pb-5 text-base text-center text-white md:text-left">
           Kikapu Financial Services provides expert support in corporate governance, compliance, and regulatory matters. We handle company registration, record maintenance, and ensure adherence to legal standards, helping businesses thrive.

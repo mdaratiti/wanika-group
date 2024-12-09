@@ -37,7 +37,7 @@ const Commercials = () => {
             WHY CHOOSE US
           </p>
           <h2 className="pb-5 text-2xl font-bold text-dark-blue md:text-3xl">
-            Your Partner in Bulk Commodities
+            Your Partner In Bulk Commodities
           </h2>
           <p className="text-base text-gray-500">
             We excel in sourcing and distributing bulk commodities, ensuring

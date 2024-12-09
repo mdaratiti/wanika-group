@@ -19,7 +19,7 @@ const AboutUs = () => {
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-dark-blue">ABOUT US</p>
             <h2 className="pb-5 text-2xl font-bold text-dark-blue md:text-3xl">
-              Vital Trade Solutions for a Growing World
+              Vital Trade Solutions For A Growing World
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-dark-blue text-custorm-black">
               Watata Commodities excels in the procurement and distribution of essential bulk commodities, enhancing supply chains globally.

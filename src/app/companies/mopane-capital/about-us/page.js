@@ -86,7 +86,7 @@ const Page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-50 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-base text-white">mopane-capital/about-us</p>
+          <p className="text-base text-white">Mopane-Capital/ About-Us</p>
           <h3 className="text-2xl text-white md:text-3xl">About Us</h3>
         </div>
       </section>
@@ -109,7 +109,7 @@ const Page = ({ fullHeight = false }) => {
                 WHO WE ARE
               </p>
               <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-green">
-                Elevating Investment Opportunities with Expertise
+                Elevating Investment Opportunities With Expertise
               </h2>
               <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-custorm-green text-custorm-black">
                 We specialize in capital raising and structured finance,

@@ -83,7 +83,7 @@ const page = ({ fullHeight = false }) => {
         <div className="absolute top-0 left-0 w-full h-full bg-[#fcc10b] opacity-20 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <p className="text-base text-white">
-            sekela-microfinance/about-us
+            Sekela-Microfinance/ About-Us
           </p>
           <h2 className="text-2xl text-white md:text-3xl">About Us</h2>
         </div>
@@ -106,7 +106,7 @@ const page = ({ fullHeight = false }) => {
           WHO WE ARE
         </p>
         <h2 className="pb-5 text-2xl font-bold text-custorm-yellow md:text-3xl">
-          Empowering Dreams with Financial Inclusion and Growth
+          Empowering Dreams With Financial Inclusion And Growth
         </h2>
         <p className="p-4 pb-5 text-base italic border-l-2 bg-custorm-gray border-custorm-yellow text-custorm-black">
           &quot;Sekela,&quot; meaning &quot;foundation&quot; in Zulu, symbolizes our commitment to providing a strong base for Africa’s ambitious dreams.

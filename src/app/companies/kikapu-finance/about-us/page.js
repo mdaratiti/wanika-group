@@ -65,7 +65,7 @@ const page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-60 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-base text-white">kikapu-finance/about-us</p>
+          <p className="text-base text-white">kikapu-Finance/ About-Us</p>
           <h3 className="text-2xl text-white md:text-3xl">About Us</h3>
         </div>
       </section>
@@ -86,7 +86,7 @@ const page = ({ fullHeight = false }) => {
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-lg font-bold md:pt-0 md:text-base text-dark-brown">WHO WE ARE</p>
             <h3 className="pb-5 text-2xl font-bold md:text-3xl">
-              Premier Provider of Innovative Secretarial Solutions
+              Premier Provider Of Innovative Secretarial Solutions
             </h3>
             <p className="p-4 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
               Kikapu Financial Services offers top-tier secretarial solutions for Zimbabwean businesses, focusing on corporate governance, compliance, and regulatory adherence.

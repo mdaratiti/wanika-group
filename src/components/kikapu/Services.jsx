@@ -55,7 +55,7 @@ const services = [
 const Services = () => {
   return (
     <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-      <h2 className="pb-10 text-2xl font-bold text-center text-dark-brown text-darkbrown md:text-3xl">OUR SERVICES</h2>
+      <h2 className="pb-10 text-2xl font-bold text-dark-brown text-darkbrown md:text-3xl">Our Services</h2>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <div key={index} className="truncate rounded-lg card bg-pine-brown">

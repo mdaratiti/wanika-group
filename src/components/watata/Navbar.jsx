@@ -11,6 +11,7 @@ import Link from "next/link";
 
 const navItems = [
   { label: "Home", link: "/" },
+  { label: "About Us", link: "/about-us" },
   {
     label: "Our Companies",
     link: "/services",
@@ -31,7 +32,6 @@ const navItems = [
   },
   { label: "Services", link: "/services" },
   { label: "Solutions", link: "/solutions" },
-  { label: "About Us", link: "/about-us" },
   { label: "Contact Us", link: "/contact-us" },
 ];
 

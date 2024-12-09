@@ -65,7 +65,7 @@ const Page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#643c05] opacity-40 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-base text-white ">naka-event-management/about-us</p>
+          <p className="text-base text-white ">Naka-Event-Management/About-Us</p>
           <h2 className="text-2xl text-white md:text-3xl">About Us</h2>
         </div>
       </section>
@@ -87,7 +87,7 @@ const Page = ({ fullHeight = false }) => {
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-pink">WHO WE ARE</p>
             <h3 className="pb-5 text-2xl font-bold text-custorm-pink md:text-3xl text-custorm-black">
-              Crafting Unforgettable Events with Precision and Creativity
+              Crafting Unforgettable Events With Precision And Creativity
             </h3>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-custorm-pink text-custorm-black">
               At Naka Events Management, we tailor every event to align with your vision, ensuring a seamless and memorable experience.

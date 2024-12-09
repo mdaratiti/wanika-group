@@ -12,8 +12,8 @@ const DiscoverMore = () => {
         <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="max-w-xl p-4 mx-auto text-center bg-black bg-opacity-50 border border-black rounded-lg">
             <h2 className="text-2xl font-bold text-white md:text-3xl">
-              Discover how Kikapu Financial Services transforms business
-              success.
+              Discover How Kikapu Financial Services Transforms Business
+              Success.
             </h2>
             <p className="pt-5 text-base text-white">
               At Kikapu Financial Services, we provide premier secretarial

@@ -19,7 +19,7 @@ const AboutUs = () => {
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold text-dark-brown md:pt-0">WHO WE ARE</p>
             <h2 className="pb-5 text-2xl font-bold text-dark-brown md:text-3xl">
-              Delivering Precision in Secretarial Solutions
+              Delivering Precision In Secretarial Solutions
             </h2>
             <p className="p-4 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
             Kikapu Financial Services is dedicated to providing top-notch secretarial solutions that drive organizational success and ensure regulatory compliance.

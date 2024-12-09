@@ -55,8 +55,8 @@ const Services = () => {
   return (
     <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="">
-        <h2 className="pb-10 text-2xl font-bold text-center text-custorm-yellow md:text-3xl">
-          OUR SERVICES
+        <h2 className="pb-10 text-2xl font-bold text-custorm-yellow md:text-3xl">
+          Our Services
         </h2>
       </div>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

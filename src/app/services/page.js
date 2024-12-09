@@ -27,7 +27,7 @@ const AboutServices = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-70 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-base text-white ">Home/services</p>
+          <p className="text-base text-white ">Home/ Services</p>
           <h2 className="text-2xl text-white md:text-3xl">Services</h2>
         </div>
       </section>

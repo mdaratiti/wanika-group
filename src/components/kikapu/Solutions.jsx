@@ -47,7 +47,7 @@ const Solutions = () => {
             WHAT WE OFFER
           </p>
           <h2 className="text-2xl font-bold text-white md:text-3xl">
-            Delivering precision and clarity in secretarial services.
+            Delivering Precision And Clarity In Secretarial Services.
           </h2>
         </div>
         <div>

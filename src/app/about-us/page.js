@@ -65,7 +65,7 @@ const Page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-80 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-base text-white ">Home/about-us</p>
+          <p className="text-base text-white ">Home/ About-Us</p>
           <h2 className="text-2xl text-white md:text-3xl ">About Us</h2>
         </div>
       </section>

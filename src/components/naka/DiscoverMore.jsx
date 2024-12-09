@@ -12,7 +12,7 @@ const DiscoverMore = () => {
         <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="max-w-xl">
             <h3 className="pb-5 text-2xl font-bold text-white md:text-3xl">
-              Illuminate Your Event with Naka Events Management
+              Illuminate Your Event With Naka Events Management
             </h3>
             <p className="text-base text-white">
               Let Naka Events Management create an unforgettable experience for

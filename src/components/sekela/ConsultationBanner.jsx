@@ -17,7 +17,7 @@ const ConsultationBanner = () => {
         <div className="absolute inset-0 z-20 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="max-w-3xl">
             <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
-              Empowering Zimbabwe&apos;s Future with Financial Inclusion and Growth
+              Empowering Zimbabwe&apos;s Future With Financial Inclusion And Growth
             </h2>
           </div>
         </div>

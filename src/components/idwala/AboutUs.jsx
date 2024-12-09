@@ -19,7 +19,7 @@ const AboutUs = () => {
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold text-dark-brown md:pt-0">ABOUT US</p>
             <h2 className="pb-5 text-2xl font-bold text-dark-brown md:text-3xl">
-              Idwala Asset Management: Building Wealth with Granite-Like Strength
+              Idwala Asset Management: Building Wealth With Granite-Like Strength
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
               Inspired by the resilience of granite, we deliver tailored investment solutions and wealth management strategies.

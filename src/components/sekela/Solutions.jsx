@@ -32,7 +32,7 @@ const Solutions = () => {
         <div>
           <p className="pb-5 text-base font-bold text-custorm-yellow">OUR SOLUTIONS</p>
           <h2 className="max-w-xl text-2xl font-bold text-custorm-yellow md:text-3xl">
-            Solutions to Empower Financial Growth
+            Solutions To Empower Financial Growth
           </h2>
         </div>
         <div className="pt-10">

@@ -69,7 +69,7 @@ const Page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-80 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-base text-white">Home/solutions</p>
+          <p className="text-base text-white">Home/ Solutions</p>
           <h2 className="text-2xl text-white md:text-3xl">Solutions</h2>
         </div>
       </section>
@@ -80,7 +80,7 @@ const Page = ({ fullHeight = false }) => {
           <div>
             <p className="pb-5 text-base font-bold text-custorm-green">WHAT WE OFFER</p>
             <h2 className="text-2xl font-bold text-custorm-green md:text-3xl bg-custorm-black">
-              Developing solutions for the future.
+              Developing Solutions For The Future.
             </h2>
           </div>
           <div>

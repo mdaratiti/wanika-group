@@ -18,7 +18,7 @@ const cardsData = [
   
   {
     icon: SlChart,
-    title: "Commodity Trading",
+    title: "Commodity Tranding",
     description: "Leading international trade in bulk grains and minerals, ensuring quality and reliability in sourcing and distribution.",
     link: "/solutions-details-commodity-trading"
   },
@@ -40,7 +40,7 @@ const Solutions = () => {
           <div>
             <p className="pb-5 text-base font-bold text-custorm-green">WHAT WE OFFER</p>
             <h2 className="pb-5 text-2xl font-bold text-custorm-green md:text-3xl text-custorm-black">
-              Developing solutions for the future.
+              Developing Solutions For The Future.
             </h2>
           </div>
           <div>

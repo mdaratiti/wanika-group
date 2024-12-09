@@ -10,19 +10,19 @@ const services = [
   {
     image: naka04,
     alt: "logistics",
-    title: "Logistics and Operations",
+    title: "Logistics And Operations",
     description: "Expert management of event logistics including venue selection, vendor coordination, audiovisual production, and transportation for flawless execution.",
   },
   {
     image: naka05,
     alt: "production",
-    title: "Event Production and Execution",
+    title: "Event Production And Execution",
     description: "Combining creativity with technical expertise to deliver immersive event environments through staging, lighting, sound design, and multimedia integration.",
   },
   {
     image: naka06,
     alt: "marketing",
-    title: "Event Marketing and Promotion",
+    title: "Event Marketing And Promotion",
     description: "Developing targeted strategies and leveraging digital platforms to maximize event reach, generate buzz, and attract attendees.",
   },
   {
@@ -47,12 +47,12 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="px-2 py-24 bg-custorm-gray md:px-8 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="">
-        <h2 className="pb-10 text-2xl font-bold text-center text-custorm-pink md:text-3xl">OUR SERVICES</h2>
+        <h2 className="pb-10 text-2xl font-bold text-custorm-pink md:text-3xl">Our Services</h2>
       </div>
 
-      <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3 lg:px-16">
+      <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <div key={index} className="truncate bg-white rounded-lg shadow-lg card">
             <div className="relative w-full h-0 pt-[50%] overflow-hidden group">

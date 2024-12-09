@@ -13,13 +13,13 @@ const Hero = () => {
         quality={100}
         className="absolute z-0"
       />
-      <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-70 z-5"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-50 z-5"></div>
       <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:max-w-5xl md:max-w-3xl 2xl:max-w-5xl xl:px-52 2xl:px-56">
-        <p className="pb-5 text-base font-bold text-center text-custorm-green md:text-left md:text-custorm-green">
+        <p className="pb-5 text-base font-bold text-center text-white md:text-left md:text-white">
           YOUR TRUSTED FINANCE PARTNER
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">
-          Exploration and Discovery in African Financial Solutions
+          Exploration And Discovery In African Financial Solutions
         </h1>
         <p className="pb-5 text-base text-center text-white md:text-left">
           Wanika Group is committed to innovation, agility, and value creation for underserved stakeholders. Our values are built on trust, transparency, and professionalism.

@@ -24,7 +24,7 @@ const Commercials = () => {
       <div className="md:gap-8 md:items-center md:flex">
         <div className="w-full md:max-w-xl">
           <h2 className="pb-5 text-2xl font-bold text-custorm-yellow md:text-3xl">
-          Comprehensive Financial Solutions for Growth and Empowerment
+          Comprehensive Financial Solutions For Growth And Empowerment
           </h2>
         </div>
         <div className="grid gap-5 md:col-span-2 sm:grid-cols-2 md:grid-cols-2">

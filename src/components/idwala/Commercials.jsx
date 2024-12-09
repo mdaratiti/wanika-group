@@ -24,7 +24,7 @@ const Commercials = () => {
       <div className="flex flex-col items-center gap-8 mx-auto md:flex-row">
         <div className="md:w-2xl">
           <h2 className="text-2xl font-bold text-white md:text-3xl">
-            Trusted Financial Solutions and Consulting
+            Trusted Financial Solutions And Consulting
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 sm:grid-cols-2 md:w-2/3">

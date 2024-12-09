@@ -83,7 +83,7 @@ const page = ({ fullHeight = false }) => {
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-40 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <p className="text-lg text-white md:text-base">
-            idwala-asset-management/about-us
+            Idwala-Asset-Management/ About-Us
           </p>
           <h2 className="text-2xl text-white md:text-3xl">About Us</h2>
         </div>
@@ -108,7 +108,7 @@ const page = ({ fullHeight = false }) => {
               ABOUT US
             </p>
             <h2 className="pb-5 text-2xl font-bold text-dark-brown md:text-3xl">
-              Crafting Robust Financial Solutions with Precision
+              Crafting Robust Financial Solutions With Precision
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
               At Idwala Asset Management, we build solid financial foundations with expertise and integrity.

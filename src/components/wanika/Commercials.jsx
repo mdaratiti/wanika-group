@@ -15,7 +15,7 @@ const cardsData = [
   },
   {
     icon: SlChart,
-    title: "Strategic Partnerships",
+    title: "Strategic Partnership",
     description: "Built on trust and transparency, we foster long-term partnerships, delivering reliable, high-quality services that exceed client expectations.",
     bgColor: "bg-custorm-gray"
   }

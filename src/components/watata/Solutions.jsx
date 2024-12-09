@@ -30,7 +30,7 @@ const Solutions = () => {
       <div className="grid items-center gap-5 md:grid-cols-2">
         <div>
           <p className="pb-5 text-base font-bold text-dark-blue">WHAT WE OFFER</p>
-          <h2 className="text-2xl font-bold text-dark-blue md:text-3xl">Developing Solutions for International Trade.</h2>
+          <h2 className="text-2xl font-bold text-dark-blue md:text-3xl">Developing Solutions For International Trade.</h2>
         </div>
         <div>
           <p className="pb-5 text-base">

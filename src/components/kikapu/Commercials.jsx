@@ -31,7 +31,7 @@ const Commercials = () => {
         <div>
           <p className="pb-5 text-lg font-bold text-white md:text-base">WHY CHOOSE US</p>
           <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
-            Innovative Secretarial Solutions for Your Business
+            Innovative Secretarial Solutions For Your Business
           </h2>
           <p className="pb-5 text-base text-white">
             Kikapu Financial Services provides leading secretarial solutions to enhance corporate governance, ensure compliance, and streamline regulatory processes. Partner with us to optimize efficiency and drive growth.

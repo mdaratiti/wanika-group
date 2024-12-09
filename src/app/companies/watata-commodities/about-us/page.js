@@ -63,7 +63,7 @@ const Page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-40 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-base text-white ">watata-commodities/about-us</p>
+          <p className="text-base text-white ">Watata-Commodities/ About-Us</p>
           <h2 className="text-2xl text-white md:text-3xl">About Us</h2>
         </div>
       </section>
@@ -84,7 +84,7 @@ const Page = ({ fullHeight = false }) => {
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-dark-blue">ABOUT US</p>
             <h2 className="pb-5 text-2xl font-bold text-dark-blue md:text-3xl">
-              Leading Experts in Bulk Commodities
+              Leading Experts In Bulk Commodities
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-dark-blue text-custorm-black">
               Watata Commodities excels in sourcing and distributing bulk grain and minerals, meeting diverse client needs with efficiency and quality.
