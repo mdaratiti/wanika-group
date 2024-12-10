@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import springWaters from "@/assets/images/spring-waters.jpg";
 import kikapu06 from "@/assets/images/kikapu06.jpeg";
-import sekela from "@/assets/images/sekela02.jpg";
+import sekela from "@/assets/images/coporateWoman.jpg";
 import treePic from "@/assets/images/tree-pic.jpg";
 import eventDeco from "@/assets/images/event-deco.jpg";
 import rob from "@/assets/images/rob.jpg";

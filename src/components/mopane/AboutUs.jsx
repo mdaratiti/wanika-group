@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import mopane19 from "@/assets/images/mopane19.jpg";
+import mopane19 from "@/assets/images/coporateMan.jpg";
 
 const AboutUs = () => {
   return (

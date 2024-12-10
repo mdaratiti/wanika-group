@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mopane22 from "@/assets/images/mopane22.jpg";
+import mopane22 from "@/assets/images/coporateMan.jpg";
 import mopane20 from "@/assets/images/mopane20.jpg";
 import DiscoverMore from "@/components/mopane/DiscoverMore";
 import { FiUsers } from "react-icons/fi";

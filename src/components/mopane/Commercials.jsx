@@ -31,7 +31,7 @@ const Commercials = () => {
         <div>
           <p className="pb-5 text-base font-bold text-white">WHY CHOOSE US</p>
           <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
-            Unlock High-Impact Investment Opportunities
+          Seize The Potential For Exceptional Financial Growth
           </h2>
           <p className="text-base text-white">
             Mopane Capital Ventures specializes in capital raising and structured finance, connecting investors with high-return opportunities and providing comprehensive due diligence.

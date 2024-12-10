@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mopane22 from "@/assets/images/mopane22.jpg";
+import mopane22 from "@/assets/images/coporateHandshake.jpg";
 
 const ConsultationBanner = () => {
   return (

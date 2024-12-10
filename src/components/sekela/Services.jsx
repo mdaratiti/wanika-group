@@ -1,6 +1,6 @@
 import Image from "next/image";
 import smile02 from "@/assets/images/smile02.jpg";
-import sekela02 from "@/assets/images/sekela02.jpg";
+import sekela02 from "@/assets/images/coporateWoman.jpg";
 import sekela05 from "@/assets/images/sekela05.jpg";
 import sekela06 from "@/assets/images/sekela06.jpg";
 import sekela07 from "@/assets/images/sekela07.jpg";
