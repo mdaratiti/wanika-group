@@ -1,6 +1,6 @@
 import Image from "next/image";
 import medienSturmer from "@/assets/images/mediensturmer.jpg";
-import mopane22 from "@/assets/images/mopane22.jpg";
+import mopane22 from "@/assets/images/coporateWoman.jpg";
 import SolutionsLinks from "@/components/solutions/SolutionsLinks";
 import Navbar from "@/components/wanika/Navbar";
 
