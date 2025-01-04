@@ -5,6 +5,7 @@ import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/wanika/DiscoverMore";
 import Navbar from "@/components/wanika/Navbar";
+import logo from "@/assets/images/logo.png";
 
 export const metadata = {
   title: {
@@ -16,33 +17,33 @@ export const metadata = {
 const values = [
   {
     icon: <SlChart className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />,
-    title: "Innovation",
-    description: "We are driven by a commitment to innovation and agility, constantly seeking new ways to add value and drive growth."
+    title: "Asset Management",
+    description: "Idwala Asset Mnagement delivers tailored investment solutions and personalized wealth management strategies through a disciplined approach, helping clients achieve their financial objectives"
   },
   {
     icon: <SlBriefcase className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />,
-    title: "Professionalism",
-    description: "We uphold the highest standards of professionalism, fostering trust and transparency in all our interactions."
+    title: "Commodity Trading",
+    description: "At Watata Commodities we are a leading international trade company specializing in the procurement and distribution of bulk commodities crucial to national economies"
   },
   {
     icon: <FiUsers className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />,
-    title: "Collaboration",
-    description: "Our approach to collaborative co-creation ensures that we meet the diverse needs of our clients through effective teamwork."
+    title: "Event Management",
+    description: "At Naka Events our creative team collaborates with clients to design and plan events that align with their vision, ensuring seamless execution and an unforgettable experience"
   },
   {
     icon: <SlGraph className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />,
-    title: "Value Creation",
-    description: "We are committed to creating value for underserved stakeholders and discovering innovative financial solutions."
+    title: "Micro Finance",
+    description: "Sekela Microfinace offers tailored financial products including microloans, savings accounts, and insurance services, aimed at empowering entrepreneurs and small businesses to reach their full potential."
   },
   {
     icon: <SlGlobe className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />,
-    title: "Global Perspective",
-    description: "Our global outlook drives us to connect with international markets and address diverse financial needs."
+    title: "Structured Finance",
+    description: "Mopane Consultancy assist companies in raising capital and managing supply chains, especially those unable to access conventional banking system"
   },
   {
     icon: <SlDiamond className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />,
-    title: "Excellence",
-    description: "We strive for excellence in every aspect of our work, ensuring quality, timeliness, and reliability in our services."
+    title: "Secretarial Service",
+    description: "At Kikapu financial services we specialize in corporate governance, company compliance, and regulatory adherence, ensuring clients operate within legal frameworks"
   }
 ];
 
@@ -50,7 +51,7 @@ const values = [
 const Page = ({ fullHeight = false }) => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={logo} />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}
@@ -111,9 +112,6 @@ const Page = ({ fullHeight = false }) => {
 
       <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div>
-          <p className="pb-5 text-base font-bold text-center text-custorm-green">
-            OUR VALUES
-          </p>
           <h2 className="pb-10 text-2xl font-bold text-center text-custorm-green md:text-3xl ">We Are Strategic</h2>
         </div>
 

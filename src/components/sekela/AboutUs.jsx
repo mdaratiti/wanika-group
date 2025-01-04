@@ -25,12 +25,6 @@ const AboutUs = () => {
             <p className="pt-5 pb-5 text-base text-gray-500">
               Sekela Microfinance is a premier institution in Zimbabwe, committed to promoting financial inclusion and sustainable growth. We offer tailored microloans, savings, and insurance services to empower entrepreneurs and small businesses. Our focus on responsible lending and financial education helps clients build a strong foundation for their ventures.
             </p>
-            <Link
-              href="/companies/sekela-microfinance/about-us"
-              className="text-base underline transition-opacity duration-200 hover:opacity-75 text-custorm-yellow"
-            >
-              Discover More
-            </Link>
           </div>
         </div>
       </div>

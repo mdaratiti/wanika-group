@@ -39,9 +39,9 @@ const cardData = [
   },
   {
     image: capitalRaise,
-    alt: "financing",
-    title: "Capital Raising Services",
-    description: "Expert assistance in securing capital through high-net-worth individuals and institutional investors.",
+    alt: "market-research",
+    title: "Market Research and Analysis",
+    description: "In-depth research and analysis to inform investment strategies and identify growth opportunities.",
   }
 ];
 

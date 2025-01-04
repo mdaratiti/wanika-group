@@ -5,7 +5,8 @@ import ConsultationBanner from "@/components/naka/ConsultationBanner";
 import Services from "@/components/naka/Services";
 import DiscoverMore from "@/components/naka/DiscoverMore";
 import Commercials from "@/components/naka/Commercials";
-import Navbar from "@/components/naka/Navbar";
+import Navbar from "@/components/wanika/Navbar";
+import nakaLogo from "@/assets/images/naka-logo.png";
 
 
 export const metadata = {
@@ -19,7 +20,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={ nakaLogo }  logoWidth={170} logoHeight={60}/>
       <Hero />
       <AboutUs />
       <Solutions />

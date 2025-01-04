@@ -27,12 +27,6 @@ const AboutUs = () => {
             <p className="pt-5 pb-5 text-lg text-black md:text-base">
               Partnering with Mopane Consultancy Services, we provide comprehensive due diligence, risk management, and legal structuring to enhance our capital raising efforts.
             </p>
-            <Link
-              href="/companies/mopane-capital/about-us"
-              className="text-base underline transition-opacity duration-200 hover:opacity-75 text-custorm-green"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </div>

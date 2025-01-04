@@ -1,13 +1,13 @@
 import Image from "next/image";
 import medienSturmer from "@/assets/images/mediensturmer.jpg";
-import { BsDot } from "react-icons/bs";
 import SolutionsLinks from "@/components/solutions/SolutionsLinks";
 import Navbar from "@/components/wanika/Navbar";
+import logo from "@/assets/images/logo.png";
 
 const page = ({ fullHeight = false }) => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={logo} />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}
@@ -42,7 +42,7 @@ const page = ({ fullHeight = false }) => {
             </div>
             <div>
               <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 text-custorm-green md:text-3xl">
-                Value-Based Consultancy & Structured Finance
+                Mopane Consultancy
               </h2>
               <p className="text-base ">
                 Mopane Consultancy Services is a registered investment advisor

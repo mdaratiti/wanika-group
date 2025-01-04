@@ -5,7 +5,8 @@ import ConsultationBanner from "@/components/kikapu/ConsultationBanner";
 import Services from "@/components/kikapu/Services";
 import DiscoverMore from "@/components/kikapu/DiscoverMore";
 import Commercials from "@/components/kikapu/Commercials";
-import Navbar from "@/components/kikapu/Navbar";
+import Navbar from "@/components/wanika/Navbar";
+import kikapuLogo from "@/assets/images/kikapu-logo.png";
 
 export const metadata = {
   title: {
@@ -17,7 +18,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={ kikapuLogo }  logoWidth={135} logoHeight={60} />
       <Hero />
       <AboutUs />
       <Solutions />

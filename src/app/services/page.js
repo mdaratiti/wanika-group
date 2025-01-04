@@ -2,6 +2,7 @@ import Image from "next/image";
 import medienSturmer from "@/assets/images/mediensturmer.jpg";
 import ServicesComponent from "@/components/wanika/Services"; // Renamed import
 import Navbar from "@/components/wanika/Navbar";
+import logo from "@/assets/images/logo.png";
 
 export const metadata = {
   title: {
@@ -12,7 +13,7 @@ export const metadata = {
 const AboutServices = ({ fullHeight = false }) => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={ logo } />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

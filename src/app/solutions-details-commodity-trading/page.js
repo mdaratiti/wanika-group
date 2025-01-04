@@ -2,11 +2,12 @@ import Image from "next/image";
 import maize from "@/assets/images/maize.jpg";
 import SolutionsLinks from "@/components/solutions/SolutionsLinks";
 import Navbar from "@/components/wanika/Navbar";
+import logo from "@/assets/images/logo.png";
 
 const page = ({ fullHeight = false }) => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={ logo } />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

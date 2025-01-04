@@ -4,6 +4,7 @@ import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import Link from "next/link";
 import Navbar from "@/components/wanika/Navbar";
+import logo from "@/assets/images/logo.png";
 
 export const metadata = {
   title: {
@@ -14,9 +15,9 @@ export const metadata = {
 
 const solutions = [
   {
-    title: "Capital Raising",
-    description: "Specializing in securing funding through high-net-worth individuals and institutional investors for private equity, venture capital, and impact investing.",
-    link: "/solutions-details-capital-raising",
+    title: "Asset Management",
+    description: "Deliver tailored investment solutions and personalized wealth management strategies through a disciplined approach, helping clients achieve their financial objectives",
+    link: "/solutions-details-asset-management",
     icon: <SlDiamond className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />
   },
   {
@@ -54,7 +55,7 @@ const solutions = [
 const Page = ({ fullHeight = false }) => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={ logo } />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

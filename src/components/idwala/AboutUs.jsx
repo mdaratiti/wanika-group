@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import strategicPlan from "@/assets/images/strategic-plan.jpeg";
 
@@ -27,12 +26,6 @@ const AboutUs = () => {
             <p className="pt-5 pb-5 text-base text-gray-500">
               Based in Zimbabwe, Idwala Asset Management offers customized portfolio management, financial planning, and advanced risk management. We aim to maximize returns and minimize risk through rigorous analysis and strategic decision-making.
             </p>
-            <Link
-              href="/companies/idwala-asset-management/about-us"
-              className="text-base underline transition-opacity duration-200 hover:opacity-75 text-dark-brown"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </div>

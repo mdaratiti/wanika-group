@@ -5,9 +5,9 @@ import Link from "next/link";
 const cardsData = [
   {
     icon: FiUsers,
-    title: "Capital Raising",
-    description: "Capital raising expertise, connecting businesses with private equity and venture capital funding.",
-    link: "/solutions-details-capital-raising"
+    title: "Asset Management",
+    description: "Deliver tailored investment solutions and personalized wealth management strategies.",
+    link: "/solutions-details-asset-management"
   },  
   {
     icon: SlGlobe,

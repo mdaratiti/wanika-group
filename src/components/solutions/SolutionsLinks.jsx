@@ -26,9 +26,9 @@ const SolutionsLinks = () => {
         </div>
       </Link>
 
-      <Link href="/solutions-details-capital-raising">
+      <Link href="/solutions-details-asset-management">
         <div className="flex items-center justify-between p-5 mb-4 transition-colors duration-200 rounded-md cursor-pointer bg-custorm-purple hover:bg-custorm-green">
-          <p className="text-lg font-bold md:text-base">Capital Raising</p>
+          <p className="text-lg font-bold md:text-base">Asset Management</p>
           <IoIosArrowRoundForward className="text-3xl bg-white rounded-md" />
         </div>
       </Link>

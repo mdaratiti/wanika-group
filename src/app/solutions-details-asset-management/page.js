@@ -3,11 +3,12 @@ import medienSturmer from "@/assets/images/mediensturmer.jpg";
 import capitalRaise from "@/assets/images/capital-raise.jpeg";
 import SolutionsLinks from "@/components/solutions/SolutionsLinks";
 import Navbar from "@/components/wanika/Navbar";
+import logo from "@/assets/images/logo.png";
 
 const page = ({ fullHeight = false }) => {
   return (
     <>
-      <Navbar />
+      <Navbar logo={ logo } />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}
@@ -23,9 +24,9 @@ const page = ({ fullHeight = false }) => {
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-70 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <p className="text-base text-white">
-            Home/solutions/details/capital-raising
+            Home/solutions/details/asset management
           </p>
-          <h2 className="text-2xl text-white md:text-3xl">Capital Raising</h2>
+          <h2 className="text-2xl text-white md:text-3xl">Asset Management</h2>
         </div>
       </section>
 
@@ -40,36 +41,24 @@ const page = ({ fullHeight = false }) => {
             </div>
             <div>
               <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 text-custorm-green md:text-3xl">
-                Mopane Capital Ventures
+                Idwala Asset Management
               </h2>
               <p className="text-base ">
-                Mopane Capital Ventures (Private) Limited specializes in capital 
-                raising for Wanika Group entities and external clients. We secure 
-                funding through high net-worth individuals and institutional investors 
-                focused on private equity, venture capital, and impact investing.
+              IDWALA Asset Management is a leading boutique financial services firm based in Zimbabwe&apos;s financial hub. We deliver tailored investment solutions and personalized wealth management strategies through a disciplined approach, helping clients achieve their financial objectives. 
               </p>
               <p className="pt-5 text-base">
-                In partnership with Mopane Consultancy Services (Private) Limited, 
-                our experienced professionals conduct thorough due diligence, 
-                providing:
+              Our team of experienced professionals is committed to excellence and client success, offering a comprehensive range of services including:
               </p>
               <ul className="pt-5 pl-5 text-base list-disc">
-                <li>Independent assessments of target ecosystems</li>
-                <li>Risk identification and mitigation strategies</li>
-                <li>Legal structuring with commercial partners (collateral management, 
-                    insurance, cash management, and security arrangements)</li>
+                <li>Customized portfolio management</li>
+                <li>Tailored financial planning</li>
+                <li>Advanced risk management solutions</li>
               </ul>
               <p className="pt-5 text-base">
-                This enhances the effectiveness of our structured finance solutions 
-                and capital raise initiatives.
+              Through rigorous research, analysis, and strategic decision-making, we aim to maximize investment returns and minimize risk for our clients. Guided by innovation, integrity, and transparency, we empower clients to navigate global financial markets with confidence.
               </p>
               <p className="pt-5 text-base">
-                Mopane Capital Ventures engages prominent private equity and venture 
-                capital markets in the USA, Canada, and Europe, connecting investors 
-                seeking high-risk, high-return opportunities in Africa&apos;s international 
-                commodity trading, energy, and mining sectors with qualifying projects 
-                that meet their investment criteria. Our dedicated research teams 
-                employ rigorous analysis to ensure meticulous project selection.
+              With a relentless focus on excellence and client satisfaction, we are a trusted partner in achieving financial prosperity and long-term success.
               </p>
             </div>
           </div>

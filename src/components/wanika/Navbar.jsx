@@ -35,7 +35,7 @@ const navItems = [
   { label: "Contact Us", link: "/contact-us" },
 ];
 
-export default function Navbar() {
+export default function Navbar({logo, logoWidth = 120, logoHeight = 40}) {
   const [isSideMenuOpen, setSideMenu] = useState(false);
 
   function openSideMenu() {
@@ -54,8 +54,8 @@ export default function Navbar() {
             <Image
               src={logo}
               alt="Website logo"
-              width={120}
-              height={40}
+              width={logoWidth}
+              height={logoHeight}
               className="object-contain"
             />
           </Link>

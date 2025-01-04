@@ -27,12 +27,6 @@ const AboutUs = () => {
             <p className="pt-5 pb-5 text-base text-gray-500">
               As a leading international trade company, we focus on bulk grain importation (maize, wheat, soya) and mineral exports (coking coal, lithium, chrome). Our strategic sourcing and strong partnerships ensure high-quality products and reliable delivery.
             </p>
-            <Link
-              href="/companies/watata-commodities/about-us"
-              className="text-base underline transition-opacity duration-200 hover:opacity-75 text-dark-blue"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </div>

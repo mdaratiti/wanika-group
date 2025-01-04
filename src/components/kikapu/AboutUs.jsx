@@ -27,12 +27,6 @@ const AboutUs = () => {
             <p className="pt-5 pb-5 text-base text-gray-500">
               We provide innovative secretarial solutions, including company registration, record maintenance, and regulatory adherence. Our expertise ensures operational efficiency and compliance for Zimbabwean businesses.
             </p>
-            <Link
-              href="/companies/kikapu-finance/about-us"
-              className="text-base underline transition-opacity duration-200 hover:opacity-75 text-dark-brown"
-            >
-              Learn More
-            </Link>
           </div>
         </div>
       </div>

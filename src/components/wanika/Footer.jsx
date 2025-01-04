@@ -3,8 +3,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-light-black">
-      <div className="py-24 mx-auto">
-        <div className="grid grid-cols-1 gap-5 px-2 md:grid-cols-5 md:px-8 lg:px-16 2xl:px-56 xl:px-52">
+      <div className="py-24 mx-auto ">
+        <div className="grid grid-cols-1 gap-5 px-2 md:grid-cols-4 md:px-8 lg:px-16 2xl:px-56 xl:px-52">
           <div className="flex items-center justify-center md:col-span-1">
             <p className="text-xl font-bold text-center text-custorm-green md:text-left">
               Discover financial solutions with Wanika Group.
@@ -12,14 +12,14 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <p className="pb-6 text-xl font-semibold text-custorm-green md:text-base">
+            <p className="pb-6 text-xl font-bold text-custorm-green md:text-base">
               Solutions
             </p>
             <Link
-              href="/solutions-details-capital-raising"
+              href="/solutions-details-asset-management"
               className="block pb-4 text-base text-white hover:text-custorm-green"
             >
-              Capital Raising
+              Asset Management
             </Link>
             <Link
               href="/solutions-details-commodity-trading"
@@ -50,36 +50,6 @@ const Footer = () => {
               className="block pb-4 text-base text-white hover:text-custorm-green"
             >
               Secretarial Service
-            </Link>
-          </div>
-
-          <div className="flex flex-col items-center md:items-start">
-            <p className="pb-6 text-xl font-bold md:text-base text-custorm-green">
-              Explore
-            </p>
-            <Link
-              href="/about-us"
-              className="block pb-4 text-base text-white hover:text-custorm-green"
-            >
-              About
-            </Link>
-            <Link
-              href="/solutions"
-              className="block pb-4 text-base text-white hover:text-custorm-green"
-            >
-              Solutions
-            </Link>
-            <Link
-              href="/contact-us"
-              className="block pb-4 text-base text-white hover:text-custorm-green"
-            >
-              Contact
-            </Link>
-            <Link
-              href="/services"
-              className="block pb-4 text-base text-white hover:text-custorm-green"
-            >
-              Services
             </Link>
           </div>
 
@@ -126,7 +96,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="pb-6 text-xl font-semibold md:text-base text-custorm-green">
+            <h3 className="pb-6 text-xl font-bold md:text-base text-custorm-green">
               Contact
             </h3>
             <p className="pb-4 text-base text-white">
@@ -141,7 +111,7 @@ const Footer = () => {
 
       <div className="py-10 bg-white">
         <p className="text-base text-center text-gray-500">
-          Copyright 2024 Wanika Group. All rights reserved
+          Copyright 2025 Wanika Group. All rights reserved
         </p>
       </div>
     </footer>
