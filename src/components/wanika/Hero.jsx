@@ -25,7 +25,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative w-full h-screen pt-40 overflow-hidden md:pt-60">
+    <section className="relative w-full h-screen overflow-hidden pt-35 md:pt-60">
       <Image
         src={adeolu}
         alt="hero background"
