@@ -1,25 +1,32 @@
-import AboutUs from "@/components/wanika/AboutUs";
-import Services from "@/components/wanika/Services";
-import Commercials from "@/components/wanika/Commercials";
-import Solutions from "@/components/wanika/Solutions";
-import DiscoverMore from "@/components/wanika/DiscoverMore";
-import ConsultationBanner from "@/components/wanika/ConsultationBanner";
 import "./globals.css";
-import Hero from "@/components/wanika/Hero";
 import Navbar from "@/components/wanika/Navbar";
 import logo from "@/assets/images/logo.png";
+import Hero from "@/components/mopane/Hero";
+import AboutUs from "@/components/mopane/AboutUs";
+import Solutions from "@/components/mopane/Solutions";
+import ConsultationBanner from "@/components/mopane/ConsultationBanner";
+import Services from "@/components/mopane/Services";
+import DiscoverMore from "@/components/mopane/DiscoverMore";
+import Commercials from "@/components/mopane/Commercials";
+import mopaneLogo from "@/assets/images/mopane-logo.png";
 
+export const metadata = {
+    title: {
+        absolute: "Mopane Capital"
+
+    },
+}
 export default function Home() {
   return (
     <div className="w-full min-h-screen ">
-      <Navbar logo={logo} />
-      <Hero />
-      <AboutUs />
-      <Solutions />
-      <DiscoverMore />
-      <Services />
-      <ConsultationBanner />
-      <Commercials />
+        <Navbar logo={ mopaneLogo } logoWidth={130} logoHeight={50}/>
+        <Hero />
+        <AboutUs />
+        <Solutions />
+        <ConsultationBanner />
+        <Services />
+        <DiscoverMore />
+        <Commercials />
     </div>
   );
 }

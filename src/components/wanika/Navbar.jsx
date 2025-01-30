@@ -16,6 +16,7 @@ const navItems = [
     label: "Our Companies",
     link: "/services",
     children: [
+      { label: "Wanika Group", link: "/companies/wanika-group" },
       { label: "Mopane Capital", link: "/companies/mopane-capital" },
       {
         label: "Idwala Asset Management",
