@@ -23,16 +23,22 @@ jobs:
         with:
           node-version: '22.x'
 
-      - name: npm install, build, and test
+      - name: npm install, build, and prepare standalone
         run: |
           npm install
           npm run build
+          # Copy public files to standalone directory
+          cp -r public build/standalone/
+          # Copy static files if they exist
+          if [ -d "build/static" ]; then
+            cp -r build/static build/standalone/build/
+          fi
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: .
+          path: build/standalone
 
   deploy:
     runs-on: ubuntu-latest
@@ -60,5 +66,4 @@ jobs:
         with:
           app-name: 'Mopane'
           slot-name: 'Production'
-          package: ./build
-          
+          package: .
