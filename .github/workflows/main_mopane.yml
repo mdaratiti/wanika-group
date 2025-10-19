@@ -27,6 +27,8 @@ jobs:
         run: |
           npm install
           npm run build
+          # Create a minimal package.json for standalone deployment
+          echo '{"name":"wanika-investment","version":"0.1.0","scripts":{"start":"node server.js"},"dependencies":{}}' > build/standalone/package.json
           # Copy public files to standalone directory
           cp -r public build/standalone/
           # Copy static files if they exist
